@@ -649,7 +649,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Rafail-Giannadakis/LCWorkshop_August2024/main/Russ_LWC/Joanna_Russ_exercise.xml?person_annotation_20240821192451474#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/persName[7]"
+			"rdf:value": "TEI/text/body/p[2]/persName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -729,7 +729,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Rafail-Giannadakis/LCWorkshop_August2024/main/Russ_LWC/Joanna_Russ_exercise.xml?person_annotation_20240821192526772#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/persName[8]"
+			"rdf:value": "TEI/text/body/p[2]/persName[9]"
 		}
 	},
 	"oa:hasBody": {
@@ -744,6 +744,86 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Rafail-Giannadakis/LCWorkshop_August2024/main/Russ_LWC/Joanna_Russ_exercise.xml?person_annotation_20240821192604906",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T16:26:04.906Z",
+	"dcterms:modified": "2024-08-21T16:26:04.906Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Rafail-Giannadakis",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Rafail Giannadakis"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Rafail-Giannadakis/LCWorkshop_August2024/main/Russ_LWC/Joanna_Russ_exercise.xml?person_annotation_20240821192604906#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Rafail-Giannadakis/LCWorkshop_August2024/main/Russ_LWC/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Rafail-Giannadakis/LCWorkshop_August2024/main/Russ_LWC/Joanna_Russ_exercise.xml?person_annotation_20240821192604906#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q13562984",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -786,7 +866,7 @@
             one superb horror story and lots of sludge (was it sludge?), and Ph-Il-s Wh--tl-y who
             was black and wrote eighteenth-century odes (but it was the eighteenth century) and
             Mrs. -nn R-del-ff- who wrote silly novels and <persName key="Margaret Cavendish, Duchess of Newcastle-upon-Tyne" ref="http://www.wikidata.org/entity/Q242640" cert="high" type="real">M-rg-r-t C-v-nd-sh</persName> and <persName key="Sarah Elizabeth Forbush Downs" ref="http://www.wikidata.org/entity/Q13562984">Mrs.-d-n S-thw-rth</persName>
-            and Mrs. G--rg- Sh-Id-n and <persName key="Georgette Heyer" ref="http://www.wikidata.org/entity/Q272706" cert="high" type="real">(Miss?) G-rg-tt- H-y-r</persName> and <persName key="Barbara Cartland" ref="http://www.wikidata.org/entity/Q235965">B-rb-r- C-rtl-nd</persName> and the legion
+            and <persName key="Sarah Elizabeth Forbush Downs" ref="http://www.wikidata.org/entity/Q13562984" cert="high" type="real">Mrs. G--rg- Sh-Id-n</persName> and <persName key="Georgette Heyer" ref="http://www.wikidata.org/entity/Q272706" cert="high" type="real">(Miss?) G-rg-tt- H-y-r</persName> and <persName key="Barbara Cartland" ref="http://www.wikidata.org/entity/Q235965">B-rb-r- C-rtl-nd</persName> and the legion
             of those who, writing, write not, like the dead Miss B--l-y of the poem who was seduced
             into bad practices (fudging her endings) and hanged herself in her garter. The sun was
             going down. I was blind and stiff.</p>
